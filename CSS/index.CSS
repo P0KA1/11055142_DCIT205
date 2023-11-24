@@ -2,3 +2,13 @@
 .ug_logo{
     height:50px;
 }
+
+.search-input{border: none;
+    border-radius: 25px;
+  float: right;
+  width: 500px;
+  height: 40px;
+  position:absolute;
+  right:0;
+  }
+  
