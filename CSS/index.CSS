@@ -1,0 +1,4 @@
+.paragraph{color: red;}
+.paragraph:hover{
+    color:rebeccapurple;
+}
