@@ -1,4 +1,2 @@
-.paragraph{color: red;}
-.paragraph:hover{
-    color:rebeccapurple;
-}
+.logo{display: inline;
+height: 50px;}
