@@ -12,3 +12,19 @@
   right:0;
   }
   
+  /* .navbar{
+    display: flex;
+    flex-direction: row;
+} */
+
+.nav_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #2C2A58;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-left: #BD9C6C;
+}
