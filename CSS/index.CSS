@@ -159,4 +159,17 @@ footer{
   text-align: left;}
 
   .right_footer{display: flex;
-  flex-direction: column
+  flex-direction: column;
+  height: 100%;
+}
+
+.line{
+width: 85%;
+opacity: 0.5;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
