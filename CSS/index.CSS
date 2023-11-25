@@ -97,6 +97,10 @@
 }
 .nav_list:first-child{border-left:none;
 }
-.home_button:{
-    border-top-left-radius:10px;
+.home_button{
+        border-top-left-radius:10px;
 }
+
+/* .nav_list a{ border-top-left-radius:10px;
+
+} */
