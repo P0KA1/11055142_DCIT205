@@ -68,7 +68,7 @@
 }
 
 .navbar{
-    position: fixed;
+    position: relative;
     display: block;
     width: auto;
     top:0 ;
@@ -94,6 +94,7 @@ footer{
   right: 0;
   left: 0;
   margin: 8px;
+  margin-top: 20px;
   padding: 10px;
   height: auto;
   color: white;
@@ -212,7 +213,7 @@ color: #BD9C6C;
   padding: 20px;
 }
 .accordion .accordion_content:target{
-  height: 600px;
+  height: 300px;
 }
 
 .accordion .accordion_trigger{
