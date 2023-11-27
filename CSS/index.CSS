@@ -82,6 +82,7 @@
 body{
     padding-top: 8%;
     padding-bottom: 200px;
+    font-family: Arial, sans-serif;
 }
 
 footer{
@@ -212,7 +213,7 @@ color: #BD9C6C;
   padding: 20px;
 }
 .accordion .accordion_content:target{
-  height: 600px;
+  height: 700px;
 }
 
 .accordion .accordion_trigger{
@@ -236,3 +237,91 @@ color: #BD9C6C;
   color: #BD9C6C;
 }
 
+.accordion .accordion_trigger:hover{
+  color: white;
+  background-color: #BD9C6C;
+}
+
+.accordion:target{
+  background-color:yellow;
+}
+
+
+
+.left{
+  background-color: red;
+  width: 100%;
+}
+
+.right{
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+.side_by_side{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 500px;
+  width: fit-content;
+}
+
+.pic_container{
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: 300px;
+}
+
+.text_container{
+  display: flex;
+  margin-left: 2%;
+  text-align: center;
+}
+
+body h2{
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+.section-1 {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.outer-container {
+  background: url(COM.jpg) no-repeat left;
+  background-size: 55%;
+  
+  overflow: hidden;
+  padding: 100px 0px;
+}
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 60px;
+}
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900; 
+}
+.section-1-text {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
