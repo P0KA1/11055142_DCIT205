@@ -3,56 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Complaint Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
-            border-radius: 10px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        button[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Computer Science Enquiry Form</title>
+    <link rel="stylesheet" href="../CSS/enquiry.css">
+    
 </head>
 <body>
+    <nav class="navbar" style="position: relative;">
+        <ul class="nav_box">
+            <li class="nav_list"><a class="home_button" href="index.html">Home</a></li>    
+            <li class="nav_list"><a href="news.html">News</a></li>
+            <li class="nav_list"><a href="contact.html">Contact</a></li>
+            <li class="nav_list"><a href="alumini.html">Alumini</a></li>
+            <li class="nav_list"><a href="about.html">About</a></li>
+            <li class="nav_list"><a href="project.html">Project</a></li>
+            <li class="nav_list"><a href="enquiry.html">Enqiry</a></li>
+        </ul>
+    </nav>
     <div class="container">
-        <h1>Student Complaint Form</h1>
+        <h1>Computer Science Enquiry Form</h1>
         <form action="">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="student_id">Student ID:</label>
-            <input type="text" id="student_id" name="student_id" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
 
             <label for="course">Course:</label>
             <input type="text" id="course" name="course" required>
 
-            <label for="complaint">
+            <label for="complaint">Enquiry</label>
+            <input type="text" id="enquiry" name="enquiry">
+       <button type="submit"> Submit</button>
+        </form>
+    </div>   
+    <footer>
+        <div class="left_footer">
+            <h3>Courses</h3>
+            <ul>
+                <li class="footer_item"><a href="Undergrad.html">Undergraduate Courses</a></li>
+                <li class="footer_item"><a href="mphil.html">Graduate Courses(MPhil Computer Science)</a></li>
+                <li class="footer_item"><a href="mcs.html">Graduate Courses(MSc Computer Science)</a></li>
+                <li class="footer_item"><a href="phd.html">Graduate Courses(PhD)</a></li>
+                
+            </ul>
+        </div>
+        <div class="middle_footer">
+            <h3>Information</h3>
+            <ul >
+                <li class="footer_item" ><a href="https://balme.ug.edu.gh/">Libraries</a></li>
+                <li class="footer_item"><a href="entry.html">Entry Requirement</a></li>
+                <li class="footer_item"><a href="calender.html">Academic Calendar</a></li>
+                <li class="footer_item"><a href="complaint.html">Student Complaint Form</a></li>
+            </ul>
+        </div>
+        
+        <div class="right_footer">
+                <h3>Follow us</h3>
+            
+            <div class="logo_container">
+               <div class="logos">
+                 <div class="logo"><img src="../image/facebook.svg" alt=""></div>
+                 <div class="hide">Facebook</div>
+               </div>
+    
+              <div class="logos">
+                <div class="logo"> <img src="../image/instagram.svg" alt=""></div>
+                <div class="hide">Instagram</div>
+              </div>
+               
+               <div class="logos">
+                 <div class="logo"><img src="../image/twitter.svg" alt=""></div>
+                 <div class="hide">Twitter</div>
+               </div>
+               
+               <div class="logos">
+                 <div class="logo"> <img src="../image/youtube.svg" alt=""></div>
+                 <div class="hide">Youtube</div>
+               </div>
+            </div>
+            <hr class="line">
+            <div>jhjhsdfdf</div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
