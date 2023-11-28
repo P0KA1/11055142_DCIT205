@@ -301,9 +301,8 @@ main {
   background-color: #fff;
 }
 .outer-container {
-  background: url(COM.jpg) no-repeat left;
-  background-size: 55%;
-  
+  background: url(../image/k.jpeg) no-repeat left;
+  background-size: 55%;  
   overflow: hidden;
   padding: 100px 0px;
 }
